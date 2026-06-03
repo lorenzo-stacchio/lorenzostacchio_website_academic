@@ -128,9 +128,14 @@
       const social = (profile.social || []).map(s =>
         `<a class="social-link" href="${esc(s.href)}" target="_blank" rel="noopener">${esc(s.label)}</a>`
       ).join('');
+      const initials = esc(profile.initials || '');
+      const fallback = `<div class=\\'avatar-placeholder\\' aria-label=\\'${esc(profile.name || '')}\\'>${initials}</div>`;
+      const avatar = profile.photo
+        ? `<img class="avatar" src="${esc(profile.photo)}" alt="${esc(profile.name || '')}" onerror="this.outerHTML='${fallback}'">`
+        : `<div class="avatar-placeholder" aria-label="${esc(profile.name || '')}">${initials}</div>`;
       return `
         <div class="container hero-grid">
-          <div class="avatar-placeholder" aria-label="${esc(profile.name || '')}">${esc(profile.initials || '')}</div>
+          ${avatar}
           <div>
             <h1>${esc(profile.name || '')}</h1>
             <p class="role">${md(profile.role || '')}</p>
