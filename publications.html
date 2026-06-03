@@ -12,7 +12,7 @@
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="index.html" class="nav-brand">Lorenzo Stacchio</a>
+    <a href="index.html" class="nav-brand" data-render="brand" data-source="data/profile.json">Lorenzo Stacchio</a>
     <button class="nav-toggle" aria-label="Open menu">☰</button>
     <div class="nav-links">
       <a href="index.html">Home</a>
@@ -28,11 +28,12 @@
 <section>
   <div class="container">
     <div class="section-title"><h2>Publications</h2></div>
-    <p class="muted">
+    <!-- <p class="muted">
       The list below is loaded automatically from
       <a href="publications.bib" target="_blank" rel="noopener"><code>publications.bib</code></a>.
-      Updating that file refreshes the page. Author <strong>Stacchio, L.</strong> is highlighted.
-    </p>
+      Edit that file (or replace it with a fresh export from Scopus / WoS / Scholar) and the page refreshes.
+      Author <strong>Stacchio, L.</strong> is highlighted.
+    </p> -->
 
     <div id="pub-stats" class="pub-stats"></div>
 
@@ -51,7 +52,7 @@
       <a href="https://orcid.org/0000-0002-9341-7651" target="_blank" rel="noopener">ORCID</a> ·
       <a href="https://www.scopus.com/authid/detail.uri?authorId=57221688841" target="_blank" rel="noopener">Scopus</a> ·
       <a href="https://www.webofscience.com/wos/author/record/JEO-9407-2023" target="_blank" rel="noopener">Web of Science</a> ·
-      <a href="https://scholar.google.com/citations?user=lorenzostacchio" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://scholar.google.com/citations?user=z3iakesAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
     </p>
   </div>
 </section>
@@ -62,6 +63,7 @@
 </footer>
 
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/js/render.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/publications.js"></script>
 </body>

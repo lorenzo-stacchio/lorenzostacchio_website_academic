@@ -1,0 +1,27 @@
+{
+  "profile": [
+    "My research focuses on the intersection between **Extended Reality (XR)** and **Artificial Intelligence (AI)**, with the goal of developing innovative solutions that support human activity across interdisciplinary contexts. Work spans immersive experiences in _Virtual Reality (VR)_, _Augmented Reality (AR)_ and _Mixed Reality (MR)_; the design of advanced Machine Learning and Deep Learning architectures; and their integration within unified **Extended Artificial Intelligence (XRAI)** frameworks.",
+    "Research is currently carried out at the [VRAI Lab](https://vrailab.it/) (directed by Prof. Primo Zingaretti and Prof. Emanuele Frontoni) within the SPOCRI Department, University of Macerata. Long-standing collaborations remain active with the [VARLAB](https://site.unibo.it/varlab/en) (Prof. Gustavo Marfia) at the University of Bologna and with the [CFC International Research Center](https://centri.unibo.it/culturefashioncommunication/en)."
+  ],
+  "interests": [
+    { "title": "Computer Vision & Generative AI for XR",   "body": "Deep Learning for multimodal object & scene understanding; Multimodal LLMs, Large Reconstruction Models and Neural Rendering for context-aware 3D content generation in immersive environments." },
+    { "title": "Human–machine interaction in XR",          "body": "Cognitive & perceptual modelling of user behaviour, attentional regulation, sense of presence; Digital Twins and multisensory environments for adaptive, personalised experiences." },
+    { "title": "Extended Artificial Intelligence (XRAI)",  "body": "Frameworks bridging perception and generation across XR pipelines, with applications to creative industries, cultural heritage, manufacturing, education and retail." }
+    ],
+  "theoretical": [
+    { "title": "Vision & multimodal recognition", "body": "Supervised & unsupervised Deep Learning for object/scene classification and multimodal identification — including augmented wine recognition and socio-historical analysis of vernacular photography." },
+    { "title": "Generative AI for XR",            "body": "Systematisation of Multimodal LLMs, Large Reconstruction Models and Neural Rendering to produce context-aware 3D content. See _MineVRA_ (Best Paper, IEEE VR 2025) and _X-NR_." },
+    { "title": "Digital Twins & collaboration",   "body": "XR frameworks to annotate, visualise and manipulate Digital Twins — and to study procedural learning (e.g., sequential instruction learning with the Rubik's cube)." },
+    { "title": "Aesthetic & emotional perception","body": "Evaluation of aesthetic emotions and social presence in immersive musical experiences (live vs. 2D vs. 3D recorded concerts)." }
+  ],
+  "applied": [
+    { "title": "Creative Industries", "body": "Immersive x-commerce, Human Digital Twins for personalised retail interactions, generative AI in XR collaborative environments (_CreAIXR_)." },
+    { "title": "Cultural Heritage",   "body": "The _IMAGO_ dataset (80k+ photos, 1845–2009), AR-based family-album digitisation on Hololens 2, and _DanXe_ — an XRAI framework for dance heritage." },
+    { "title": "Industry & manufacturing", "body": "_Annholotator_, an MR collaborative platform for Lean Manufacturing work instructions; AR systems for wine-label recognition; modular XR flight simulators (_Unity-VRLines_)." }
+  ],
+  "groups": [
+    { "html": "**VRAI Lab** (UNIMC, UnivPM & partners) — since Feb 2024. [vrailab.it](https://vrailab.it/)" },
+    { "html": "**VARLAB** — University of Bologna (CS & Arts Depts.) since Nov 2020." },
+    { "html": "**CFC — Culture, Fashion, Communication International Research Center**, UniBO, Nov 2020 — Feb 2024." }
+  ]
+}

@@ -12,7 +12,7 @@
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="index.html" class="nav-brand">Lorenzo Stacchio</a>
+    <a href="index.html" class="nav-brand" data-render="brand" data-source="data/profile.json">Lorenzo Stacchio</a>
     <button class="nav-toggle" aria-label="Open menu">☰</button>
     <div class="nav-links">
       <a href="index.html">Home</a>
@@ -29,152 +29,66 @@
 <section>
   <div class="container">
     <div class="section-title"><h2>Curriculum Vitae</h2></div>
-    <p class="muted">Updated 17 March 2026. Print-friendly version available via your browser's print dialog.</p>
+    <p class="muted">Print-friendly version available via your browser's print dialog.</p>
   </div>
 </section>
 
 <section>
   <div class="container">
     <div class="section-title"><h2>Contact</h2></div>
-    <ul>
-      <li><strong>Affiliation:</strong> Department of Political Sciences, Communication and International Relations (SPOCRI) — University of Macerata</li>
-      <li><strong>Address:</strong> Via Don Minzoni 22/A, 62100 Macerata, Italy</li>
-      <li><strong>Email:</strong> <a href="mailto:lorenzo.stacchio@unimc.it">lorenzo.stacchio@unimc.it</a></li>
-      <li><strong>PEC:</strong> lorenzo.stacchio@pec.it</li>
-      <li><strong>ORCID:</strong> <a href="https://orcid.org/0000-0002-9341-7651" target="_blank" rel="noopener">0000-0002-9341-7651</a></li>
-      <li><strong>Scopus ID:</strong> <a href="https://www.scopus.com/authid/detail.uri?authorId=57221688841" target="_blank" rel="noopener">57221688841</a></li>
-      <li><strong>WoS ID:</strong> <a href="https://www.webofscience.com/wos/author/record/JEO-9407-2023" target="_blank" rel="noopener">JEO-9407-2023</a></li>
-    </ul>
+    <div data-render="profile_contacts" data-source="data/profile.json"></div>
   </div>
 </section>
 
 <section>
   <div class="container">
     <div class="section-title"><h2>Current position</h2></div>
-    <div class="timeline">
-      <div class="timeline-item">
-        <span class="timeline-date">Feb 2026 — present</span>
-        <div class="timeline-title">Research Fellow (Assegnista di Ricerca) · SSD IINF-05/A</div>
-        <div class="timeline-org">University of Macerata, Department SPOCRI — Supervisor: Prof. Emanuele Frontoni · Topic: Consumer behaviour analysis in retail through top-view RGB-D cameras.</div>
-      </div>
-    </div>
+    <div data-render="timeline" data-source="data/positions.json#current"></div>
   </div>
 </section>
 
 <section>
   <div class="container">
     <div class="section-title"><h2>Professional experience</h2></div>
-    <div class="timeline">
-      <div class="timeline-item">
-        <span class="timeline-date">Feb 2025 — Jan 2026</span>
-        <div class="timeline-title">Research Fellow · SSD IINF-05/A</div>
-        <div class="timeline-org">UNIMC SPOCRI — Supervisor: Prof. Marina Paolanti.</div>
-      </div>
-      <div class="timeline-item">
-        <span class="timeline-date">Feb 2024 — Jan 2025</span>
-        <div class="timeline-title">Research Fellow · SSD IINF-05/A</div>
-        <div class="timeline-org">UNIMC SPOCRI — Supervisor: Prof. Marina Paolanti.</div>
-      </div>
-      <div class="timeline-item">
-        <span class="timeline-date">Jun 2024 — present</span>
-        <div class="timeline-title">Adjunct Lecturer — <em>Graphics &amp; Virtual Reality</em> (4 CFU)</div>
-        <div class="timeline-org">University of Macerata, SSD L-ART/06.</div>
-      </div>
-      <div class="timeline-item">
-        <span class="timeline-date">Oct 2024</span>
-        <div class="timeline-title">PhD Lecturer — <em>Deep Learning &amp; Computer Vision for Business</em> (2 CFU)</div>
-        <div class="timeline-org">PhD ECOSTATDATA, University of Milano-Bicocca · SSD IINF-05/A.</div>
-      </div>
-      <div class="timeline-item">
-        <span class="timeline-date">Feb — May 2023</span>
-        <div class="timeline-title">Visiting Researcher</div>
-        <div class="timeline-org">TU Graz — Supervisor: Prof. Denis Kalkofen · Diffusion Models for temporally-coherent renderings.</div>
-      </div>
-    </div>
+    <div data-render="timeline" data-source="data/positions.json#past"></div>
   </div>
 </section>
 
 <section>
   <div class="container">
     <div class="section-title"><h2>Education</h2></div>
-    <div class="timeline">
-      <div class="timeline-item">
-        <span class="timeline-date">Nov 2020 — Jan 2024</span>
-        <div class="timeline-title">PhD in Computer Science (SSD INF-01)</div>
-        <div class="timeline-org">University of Bologna, XXXVI cycle (Quality of Life Sciences). Supervisor: Prof. Gustavo Marfia · Co-Supervisor: Prof. Giuseppe Lisanti. Thesis: <em><a href="https://amsdottorato.unibo.it/11139/" target="_blank" rel="noopener">Entangling artificial intelligence with extended reality paradigms for human activity support</a></em>.</div>
-      </div>
-      <div class="timeline-item">
-        <span class="timeline-date">Sep 2018 — Oct 2020</span>
-        <div class="timeline-title">M.Sc. in Computer Science (LM-18) — <em>cum laude</em></div>
-        <div class="timeline-org">University of Bologna, Faculty of Computer Science, Science and Engineering.</div>
-      </div>
-      <div class="timeline-item">
-        <span class="timeline-date">Sep 2015 — Jul 2018</span>
-        <div class="timeline-title">B.Sc. in Computer Science (L-31) — <em>cum laude</em></div>
-        <div class="timeline-org">University of Camerino, Faculty of Computer Science.</div>
-      </div>
-      <div class="timeline-item">
-        <span class="timeline-date">Sep 2010 — Jul 2015</span>
-        <div class="timeline-title">High school diploma — "Business Information Systems"</div>
-        <div class="timeline-org">Technical Commercial Institute "Alberico Gentili", Macerata.</div>
-      </div>
-    </div>
+    <div data-render="timeline" data-source="data/education.json"></div>
   </div>
 </section>
 
 <section>
   <div class="container">
     <div class="section-title"><h2>Editorial &amp; review activity</h2></div>
-    <ul>
-      <li><strong>Associate Editor</strong> — <em>The Visual Computer</em> (Springer), since 17 Feb 2025.</li>
-      <li><strong>Springer Nature Editor of Distinction Award 2026</strong> — Author Service Award (top 20%).</li>
-      <li>Reviewer for IEEE (TMM, Access), ACM (JOCCH), Springer (MTAP, Computing Surveys, HSSC), Elsevier (JVCI), Taylor &amp; Francis (IJHCI), MDPI (Applied Sciences, Sensors, Mathematics), Frontiers in Computer Science, etc.</li>
-      <li>Program Committee member at ISMAR, IEEE VR, AAAI, ACM MM, ECCV, IROS, ICIAP and others.</li>
-    </ul>
+    <div data-render="list" data-source="data/service.json#editorial"></div>
   </div>
 </section>
 
 <section>
   <div class="container">
-    <div class="section-title"><h2>Conference organization &amp; talks</h2></div>
+    <div class="section-title"><h2>Conference organization</h2></div>
     <h3>Chair &amp; Tutorial</h3>
-    <ul>
-      <li><strong>Principal Organizer</strong> — <a href="https://sites.google.com/view/huarl-iciap-2025/" target="_blank" rel="noopener">HUARL @ ICIAP 2025</a> (with Prof. Primo Zingaretti, 15 Sep 2025).</li>
-      <li>Session Chair — CREAI @ ECAI 2024.</li>
-      <li>Co-Chair — Special Session "FAME: Fashion for Metaverse" @ AIVR 2024 (with Dr. Pasquale Cascarano).</li>
-      <li>Tutorial Lead — "Fashion in the Metaverse" @ IFIP-ICEC 2023.</li>
-    </ul>
+    <div data-render="list" data-source="data/service.json#chair"></div>
     <h3>Invited talks</h3>
-    <ul>
-      <li>Invited Speaker — 2nd Physical Retail AI Workshop @ IEEE/CVF WACV 2025: <em>"On the role of Extended Artificial Intelligence in the future of physical retail"</em>.</li>
-      <li>Invited Talk — VARLAB seminar series, 21 Jan 2025.</li>
-      <li>Invited Talk — 2nd Workshop "Italian Feminist Photography", PRIN, UniPR, 6 Oct 2023.</li>
-      <li>PhD lecture — XR, PhD in "Cultural Heritage in the Digital Ecosystem", 27 Jun 2023.</li>
-      <li>PhD lecture (with Prof. Marfia &amp; Prof. Pompa) — "Fashion RE-volution &amp; RE-Activation", Digital Humanities IV PhD, UniPR, 19 Jan 2023.</li>
-    </ul>
+    <div data-render="list" data-source="data/talks.json"></div>
   </div>
 </section>
 
 <section>
   <div class="container">
     <div class="section-title"><h2>Research groups &amp; collaborations</h2></div>
-    <ul>
-      <li><strong>VRAI Lab</strong> (UNIMC, UnivPM &amp; partners) — since Feb 2024. <a href="https://vrailab.it/" target="_blank" rel="noopener">vrailab.it</a></li>
-      <li><strong>VARLAB</strong> — University of Bologna (CS &amp; Arts Depts.) since Nov 2020.</li>
-      <li><strong>CFC — Culture, Fashion, Communication International Research Center</strong>, UniBO, Nov 2020 — Feb 2024.</li>
-    </ul>
+    <div data-render="list" data-source="data/research.json#groups"></div>
   </div>
 </section>
 
 <section>
   <div class="container">
     <div class="section-title"><h2>Awards</h2></div>
-    <ul>
-      <li><strong>Springer Nature Editor of Distinction Award 2026</strong>.</li>
-      <li><strong>Best Paper</strong>, IEEE VR 2025 — <em>MineVRA</em>.</li>
-      <li>Best Poster — VisMac2020 PhD School (IMAGO dataset).</li>
-      <li>Winner — XR&amp;AI International Summer School, Matera, 2022.</li>
-    </ul>
+    <div data-render="list" data-source="data/awards.json"></div>
   </div>
 </section>
 
@@ -196,6 +110,7 @@
 </footer>
 
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/js/render.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

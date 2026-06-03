@@ -12,7 +12,7 @@
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="index.html" class="nav-brand">Lorenzo Stacchio</a>
+    <a href="index.html" class="nav-brand" data-render="brand" data-source="data/profile.json">Lorenzo Stacchio</a>
     <button class="nav-toggle" aria-label="Open menu">☰</button>
     <div class="nav-links">
       <a href="index.html">Home</a>
@@ -29,96 +29,35 @@
 <section>
   <div class="container">
     <div class="section-title"><h2>Official courses</h2></div>
-    <div class="timeline">
-      <div class="timeline-item">
-        <span class="timeline-date">A.Y. 2025/2026 · 9 CFU</span>
-        <div class="timeline-title">Advanced Programming of Videogames and Virtual Reality Systems</div>
-        <div class="timeline-org">B.Sc. in Information Engineering for Videogames and Virtual Reality — Università Politecnica delle Marche · SSD ING-INF/05 · <a href="https://guide.univpm.it/af.php?lang=lang-ita&af=248218" target="_blank" rel="noopener">official page</a></div>
-      </div>
-      <div class="timeline-item">
-        <span class="timeline-date">A.Y. 2023/2024 — 2024/2025 · 4 CFU</span>
-        <div class="timeline-title">Graphics and Virtual Reality</div>
-        <div class="timeline-org">60-CFU teacher qualification programme (Class A060-FI) — University of Macerata · SSD L-ART/06</div>
-      </div>
-      <div class="timeline-item">
-        <span class="timeline-date">A.Y. 2023/2024 — 2024/2025 · 2 CFU</span>
-        <div class="timeline-title">Deep Learning and Computer Vision for Business</div>
-        <div class="timeline-org">PhD Programme in Economics, Statistics and Data Science (ECOSTATDATA) — University of Milano-Bicocca · SSD IINF-05/A</div>
-      </div>
-    </div>
+    <div data-render="courses" data-source="data/teaching.json#official_courses"></div>
   </div>
 </section>
 
 <section>
   <div class="container">
     <div class="section-title"><h2>Teaching assistance &amp; complementary teaching</h2></div>
-    <p class="muted">Cultore della Materia at the University of Macerata (since A.Y. 2023/2024), examination commission member and lecturer for several courses.</p>
-
-    <h3>University of Macerata — A.Y. 2024/2025 — 2025/2026</h3>
-    <ul>
-      <li><em>Multimedia Computer Science &amp; Artificial Intelligence</em> (9 CFU), M.Sc. in Digital Communication and Cultures (LM19)</li>
-      <li><em>Multimedia Computer Science for Social Media</em> (9 CFU), M.Sc. LM19</li>
-      <li><em>Computer Science for Communication</em> (9 CFU), B.Sc. in Communication Sciences (L-20)</li>
-      <li><em>Multimedia Design for Extended Reality and the Metaverse</em> (9 CFU), B.Sc. L-20</li>
-      <li><em>Web Design Lab</em>, B.Sc. L-20</li>
-      <li><em>Artificial Intelligence for Communication Lab</em>, M.Sc. LM19</li>
-      <li><em>GeoAI: Artificial Intelligence and Geospatial Data</em> (2 CFU), M.Sc. in Political Sciences (LM62) · SSD GEOG-01/B</li>
-    </ul>
-
-    <h3>University of Bologna — with Prof. Gustavo Marfia</h3>
-    <ul>
-      <li><em>Virtual and Augmented Reality Lab</em> (6 CFU), M.Sc. in Computer Science — A.Y. 2020/21 → 2023/24</li>
-      <li><em>Information Technologies for Fashion</em> (6 CFU), B.Sc. in Fashion Cultures &amp; Practices — A.Y. 2021/22 → 2023/24</li>
-      <li><em>E-Commerce Computing Elements for Fashion</em> (6 CFU), B.Sc. — A.Y. 2021/22 — 2022/23</li>
-      <li><em>Data Science &amp; Immersive Technologies for Fashion E-Commerce</em> (6 CFU), M.Sc. in Fashion Studies — A.Y. 2021/22 → 2023/24</li>
-    </ul>
-
-    <h3>Università Politecnica delle Marche — with Prof. Primo Zingaretti</h3>
-    <ul>
-      <li><em>Computer Graphics and Multimedia</em> (9 CFU), M.Sc. in Computer &amp; Automation Engineering (LM-32) — A.Y. 2023/24 → 2025/26</li>
-    </ul>
+    <div data-render="course_groups" data-source="data/teaching.json#ta_groups"></div>
   </div>
 </section>
 
 <section>
   <div class="container">
     <div class="section-title"><h2>Seminar series &amp; tutoring</h2></div>
-    <ul>
-      <li><em>Artificial Intelligence for Fashion</em> — 30h seminar series, B.Sc. Fashion, UniBO A.Y. 2022/2023.</li>
-      <li><em>An Introduction to Computer Science for Fashion</em> — 10h crash course, M.Sc. Fashion Studies, UniBO 2022/23 &amp; 2023/24.</li>
-      <li>Tutoring: <em>Algorithms and Data Structures</em>, B.Sc. Computer Science for Management, UniBO (24h, A.Y. 2022/23).</li>
-      <li>Tutoring: VARLAB lab, Rimini Campus, UniBO (60h, A.Y. 2021/22).</li>
-    </ul>
+    <div data-render="list" data-source="data/teaching.json#seminars"></div>
   </div>
 </section>
 
 <section>
   <div class="container">
     <div class="section-title"><h2>Thesis co-supervision</h2></div>
-    <p>9 Bachelor / Master theses co-supervised at the University of Bologna and University of Macerata:</p>
-    <ul>
-      <li>Alessandro Giacchè — M.Sc. Computer Science (UniBO)</li>
-      <li>Davide Cristoni — B.Sc. Computer Science (UniBO)</li>
-      <li>Giuseppe Di Maria — M.Sc. Computer Science (UniBO)</li>
-      <li>Luca Asunis — M.Sc. Computer Science (UniBO)</li>
-      <li>Ilaria Vinci — B.Sc. Fashion Cultures (UniBO)</li>
-      <li>Loreta Armstrong — M.Sc. Fashion Studies (UniBO)</li>
-      <li>Cassia Fraglica — B.Sc. Fashion Cultures (UniBO)</li>
-      <li>Michele Giordano — B.Sc. Computer Engineering (E-Campus)</li>
-      <li>Elisa Re — B.Sc. Communication Sciences (UNIMC)</li>
-    </ul>
+    <div data-render="theses" data-source="data/teaching.json#theses"></div>
   </div>
 </section>
 
 <section>
   <div class="container">
     <div class="section-title"><h2>Outreach &amp; third mission</h2></div>
-    <ul>
-      <li><em>Big Data Lab</em> with high schools (15h) — POR FESR Emilia-Romagna "Open Labs" (2021).</li>
-      <li><em>STEM Skills for Humanities</em> Erasmus+ KA220 (20h) — teaching to humanities professors (WP2 &amp; WP3).</li>
-      <li>PNRR 1302-ATT-945-E-1 — Digital transition training: <em>AI in the classroom: potentials, limits and tools. The metaverse &amp; inclusive technologies</em> (2024).</li>
-      <li>PNRR 1302-ATT-946-E-12 — <em>AI &amp; XR for innovation in teaching and practical training</em>, IIS G. Garibaldi (CUP I84D23002190006).</li>
-    </ul>
+    <div data-render="list" data-source="data/teaching.json#outreach"></div>
   </div>
 </section>
 
@@ -129,6 +68,7 @@
 </footer>
 
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/js/render.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

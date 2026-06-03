@@ -1,0 +1,171 @@
+{
+  "official_courses": [
+    {
+      "title": "Advanced Programming of Videogames and Virtual Reality Systems",
+      "cfu": "9 CFU",
+      "ssd": "ING-INF/05",
+      "program": "B.Sc. in Information Engineering for Videogames and Virtual Reality",
+      "institution": "Università Politecnica delle Marche",
+      "academic_years": ["2025/2026"],
+      "link": "https://guide.univpm.it/af.php?lang=lang-ita&af=248218",
+      "link_label": "official page"
+    },
+    {
+      "title": "Deep Learning and Computer Vision for Business",
+      "cfu": "2 CFU",
+      "ssd": "IINF-05/A",
+      "program": "PhD Programme in Economics, Statistics and Data Science (ECOSTATDATA)",
+      "institution": "University of Milano-Bicocca",
+      "academic_years": ["2023/2024", "2024/2025", "2025/2026"]
+    },
+    {
+      "title": "Graphics and Virtual Reality",
+      "cfu": "4 CFU",
+      "ssd": "L-ART/06",
+      "program": "60-CFU teacher qualification programme (Class A060-FI)",
+      "institution": "University of Macerata",
+      "academic_years": ["2023/2024", "2024/2025"]
+    }
+  ],
+  "ta_groups": [
+    {
+      "group_title": "University of Macerata — Cultore della Materia",
+      "group_note": "Examination commission member for courses by Prof. Emanuele Frontoni, Prof. Marina Paolanti and Prof. Simona Epasto (degrees L-20 and LM19).",
+      "courses": [
+        {
+          "title": "Multimedia Design for Extended Reality and the Metaverse",
+          "cfu": "9 CFU",
+          "ssd": "IINF-05/A",
+          "program": "B.Sc. L-20",
+          "institution": "University of Macerata",
+          "academic_years": ["2024/2025","2025/2026"]
+        },
+        {
+          "title": "GeoAI: Artificial Intelligence and Geospatial Data",
+          "cfu": "2 CFU",
+          "ssd": "GEOG-01/B",
+          "program": "M.Sc. in Political Sciences (LM62)",
+          "institution": "University of Macerata",
+          "academic_years": ["2025/2026"]
+        },
+        {
+          "title": "Multimedia Computer Science & Artificial Intelligence",
+          "cfu": "9 CFU",
+          "ssd": "IINF-05/A",
+          "program": "M.Sc. in Digital Communication and Cultures (LM19)",
+          "institution": "University of Macerata",
+          "academic_years": ["2024/2025"]
+        },
+        {
+          "title": "Multimedia Computer Science for Social Media",
+          "cfu": "9 CFU",
+          "ssd": "IINF-05/A",
+          "program": "M.Sc. LM19",
+          "institution": "University of Macerata",
+          "academic_years": ["2024/2025"]
+        },
+        {
+          "title": "Computer Science for Communication",
+          "cfu": "9 CFU",
+          "ssd": "IINF-05/A",
+          "program": "B.Sc. in Communication Sciences (L-20)",
+          "institution": "University of Macerata",
+          "academic_years": ["2024/2025"]
+        },
+        
+        {
+          "title": "Web Design Lab",
+          "ssd": "IINF-05/A",
+          "program": "B.Sc. L-20",
+          "institution": "University of Macerata",
+          "academic_years": ["2024/2025"]
+        },
+        {
+          "title": "Artificial Intelligence for Communication Lab",
+          "ssd": "IINF-05/A",
+          "program": "M.Sc. LM19",
+          "institution": "University of Macerata",
+          "academic_years": ["2024/2025"]
+        }
+      ]
+    },
+    {
+      "group_title": "University of Bologna — with Prof. Gustavo Marfia",
+      "courses": [
+        {
+          "title": "Virtual and Augmented Reality Lab",
+          "cfu": "6 CFU",
+          "ssd": "INFO-01/A",
+          "program": "M.Sc. in Computer Science",
+          "institution": "University of Bologna",
+          "academic_years": ["2020/2021", "2021/2022", "2022/2023", "2023/2024"]
+        },
+        {
+          "title": "Information Technologies for Fashion",
+          "cfu": "6 CFU",
+          "ssd": "INFO-01/A",
+          "program": "B.Sc. in Fashion Cultures & Practices",
+          "institution": "University of Bologna",
+          "academic_years": ["2021/2022", "2022/2023", "2023/2024"]
+        },
+        {
+          "title": "E-Commerce Computing Elements for Fashion",
+          "cfu": "6 CFU",
+          "ssd": "INFO-01/A",
+          "program": "B.Sc. in Fashion Cultures & Practices",
+          "institution": "University of Bologna",
+          "academic_years": ["2021/2022", "2022/2023"]
+        },
+        {
+          "title": "Data Science & Immersive Technologies for Fashion E-Commerce",
+          "cfu": "6 CFU",
+          "ssd": "INFO-01/A",
+          "program": "M.Sc. in Fashion Studies",
+          "institution": "University of Bologna",
+          "academic_years": ["2021/2022", "2022/2023", "2023/2024"]
+        }
+      ]
+    },
+    {
+      "group_title": "Università Politecnica delle Marche — with Prof. Primo Zingaretti",
+      "courses": [
+        {
+          "title": "Computer Graphics and Multimedia",
+          "cfu": "9 CFU",
+          "ssd": "IINF-05/A",
+          "program": "M.Sc. in Computer & Automation Engineering (LM-32)",
+          "institution": "Università Politecnica delle Marche",
+          "academic_years": ["2023/2024", "2024/2025", "2025/2026"]
+        }
+      ]
+    }
+  ],
+  "seminars": [
+    { "html": "_Artificial Intelligence for Fashion_ — 30h seminar series, B.Sc. Fashion, UniBO A.Y. 2022/2023." },
+    { "html": "_An Introduction to Computer Science for Fashion_ — 10h crash course, M.Sc. Fashion Studies, UniBO 2022/23 & 2023/24." },
+    { "html": "Tutoring: _Algorithms and Data Structures_, B.Sc. Computer Science for Management, UniBO (24h, A.Y. 2022/23)." },
+    { "html": "Tutoring: VARLAB lab, Rimini Campus, UniBO (60h, A.Y. 2021/22)." }
+  ],
+  "theses": {
+    "intro": "12 Bachelor / Master theses co-supervised at the University of Bologna and University of Macerata:",
+    "items": [
+      "Alessio Paolucci, Re — M.Sc. Communication Engineering (UNIVPM)",
+      "Michele Giordano — B.Sc. Computer Engineering (E-Campus)",
+      "Elisa Re — B.Sc. Communication Sciences (UNIMC)",
+      "Stefano Favale, Re — M.Sc. Communication Engineering (UniBo)",
+      "Alessandro Giacchè — M.Sc. Computer Science (UniBO)",
+      "Davide Cristoni — B.Sc. Computer Science (UniBO)",
+      "Giuseppe Di Maria — M.Sc. Computer Science (UniBO)",
+      "Luca Asunis — M.Sc. Computer Science (UniBO)",
+      "Ilaria Vinci — B.Sc. Fashion Cultures (UniBO)",
+      "Loreta Armstrong — M.Sc. Fashion Studies (UniBO)",
+      "Cassia Fraglica — B.Sc. Fashion Cultures (UniBO)"
+    ]
+  },
+  "outreach": [
+    { "html": "_Big Data Lab_ with high schools (15h) — POR FESR Emilia-Romagna \"Open Labs\" (2021)." },
+    { "html": "_STEM Skills for Humanities_ Erasmus+ KA220 (20h) — teaching to humanities professors (WP2 & WP3)." },
+    { "html": "PNRR 1302-ATT-945-E-1 — Digital transition training: _AI in the classroom: potentials, limits and tools. The metaverse & inclusive technologies_ (2024)." },
+    { "html": "PNRR 1302-ATT-946-E-12 — _AI & XR for innovation in teaching and practical training_, IIS G. Garibaldi (CUP I84D23002190006)." }
+  ]
+}
