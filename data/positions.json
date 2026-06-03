@@ -1,0 +1,36 @@
+{
+  "current": [
+    {
+      "date": "Feb 2026 — present",
+      "title": "Research Fellow (Assegnista di Ricerca) · SSD IINF-05/A",
+      "org": "University of Macerata, Department SPOCRI — Supervisor: Prof. Emanuele Frontoni · Topic: Consumer behaviour analysis in retail through top-view RGB-D cameras."
+    }
+  ],
+  "past": [
+    {
+      "date": "Feb 2025 — Jan 2026",
+      "title": "Research Fellow · SSD IINF-05/A",
+      "org": "UNIMC SPOCRI — Supervisor: Prof. Marina Paolanti."
+    },
+    {
+      "date": "Feb 2024 — Jan 2025",
+      "title": "Research Fellow · SSD IINF-05/A",
+      "org": "UNIMC SPOCRI — Supervisor: Prof. Marina Paolanti."
+    },
+    {
+      "date": "Jun 2024 — present",
+      "title": "Adjunct Lecturer — _Graphics & Virtual Reality_ (4 CFU)",
+      "org": "University of Macerata, SSD L-ART/06."
+    },
+    {
+      "date": "Oct 2024",
+      "title": "PhD Lecturer — _Deep Learning & Computer Vision for Business_ (2 CFU)",
+      "org": "PhD ECOSTATDATA, University of Milano-Bicocca · SSD IINF-05/A."
+    },
+    {
+      "date": "Feb — May 2023",
+      "title": "Visiting Researcher",
+      "org": "TU Graz — Supervisor: Prof. Denis Kalkofen · Diffusion Models for temporally-coherent renderings."
+    }
+  ]
+}
